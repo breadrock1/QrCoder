@@ -13,13 +13,13 @@ env:
 jobs:
   
   clippy:
-    name: Flake8
+    name: Clippy
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v3
     
-    - name: Clippy
+    - name: Run clippy
       run: cargo clippy
       
   build:
@@ -30,7 +30,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     
-    - name: Build
+    - name: Run building
       run: cargo build --verbose
       
   tests:
