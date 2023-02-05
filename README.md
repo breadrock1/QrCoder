@@ -112,3 +112,9 @@ There are several algorithms which require `-k, --key <VALUE>` key option such a
  - `scytale`    - key type: `Number`;
  - `vigenere`   - key type: `String`;
  - `porta`      - key type: `String`.
+
+## TODO:
+
+ - Make tool as library;
+ - Add ability to scan QrCode from webcam;
+ - How compile it on mobile (ARM)?
