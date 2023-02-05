@@ -11,8 +11,8 @@ pub use crate::generate::generator;
 
 fn generate_qrcode(matches: &ArgMatches) {
     let algorithm = matches
-        .get_one::<String>("encode")
-        .expect("The encode parameter is missing.\n");
+        .get_one::<String>("algorithm")
+        .expect("The algorithm parameter is missing.\n");
 
     let message = matches
         .get_one::<String>("msg")
@@ -34,8 +34,8 @@ fn generate_qrcode(matches: &ArgMatches) {
 
 fn extract_qrcode(matches: &ArgMatches) {
     let algorithm = matches
-        .get_one::<String>("encode")
-        .expect("The encode parameter is missing.\n");
+        .get_one::<String>("algorithm")
+        .expect("The algorithm parameter is missing.\n");
 
     let file_path = matches
         .get_one::<String>("file")
@@ -65,7 +65,7 @@ fn main() {
         .version("0.1.1")
         .about("Just encode data to QrCode and extract it :)")
         .arg(arg!(<MODE> "The application mode: generate or extract").required(true))
-        .arg(arg!(-e --encode <CIPHER> "The encoding algorithm.").required(true))
+        .arg(arg!(-a --algorithm <CIPHER> "The en/decoding algorithm.").required(true))
         .arg(arg!(-k --key <VALUE> "The key to apply cipher.").required(false))
         .arg(arg!(-f --file <PATH> "Path to file with QrCode").required(false))
         .arg(arg!(-o --output <PATH> "The output file path.").required(false))
