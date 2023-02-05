@@ -2,8 +2,8 @@
 
 Forker from `nkr13/qrcode-encrypt` repository!
 
-![GitHub version](https://img.shields.io/badge/version-v1.2.0-green?style=plastic&labelColor=dark)
-[![Building Project](https://github.com/breadrock1/ICMPFlood/actions/workflows/build-project-action.yml/badge.svg?branch=master)](https://github.com/breadrock1/ICMPFlood/actions/workflows/build-project-action.yml)
+![GitHub version](https://img.shields.io/badge/version-v0.1.2-green?style=plastic&labelColor=dark)
+[![Building Project](https://github.com/breadrock1/QrCoder/actions/workflows/build-project-action.yml/badge.svg?branch=master)](https://github.com/breadrock1/QrCoder/actions/workflows/build-project-action.yml)
 
 There is simple tool based on Rust which I forked from `nkr413/qrcode-encrypt` while researching Rust programming language. The main purpose of `QrCoder` is encode/decode text message to [QrCode](https://en.wikipedia.org/wiki/QR_code) by selected cryptinh algorithm. It is capable of intelligently recognizing several encoding formats using heuristic techniques. This rool provides several available modes: encode and decode. Encoding is the process of putting a sequence of character’s (letters, numbers, punctuation, and symbols) into a specialized format which is used for efficient transmission or storage. Decoding is the opposite process of encoding the conversion of an encoded format back into the original format. Encoding and decoding can be used in data communications, networking, and storage.
 
