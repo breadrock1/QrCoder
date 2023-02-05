@@ -1,5 +1,6 @@
 # QrCoder
 
+![Rust language](https://img.shields.io/badge/Rust-project-black?style=plastic&logo=rust&logoColor=white)
 ![GitHub version](https://img.shields.io/badge/version-v0.1.2-green?style=plastic&labelColor=dark)
 [![Building Project](https://github.com/breadrock1/QrCoder/actions/workflows/build-project-action.yml/badge.svg?branch=main)](https://github.com/breadrock1/QrCoder/actions/workflows/build-project-action.yml)
 
