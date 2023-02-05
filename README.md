@@ -61,7 +61,7 @@ The algorithm used here is the same as that used by the American Cryptogram Asso
 There is command to build Rust project:
 
 ```shell
-    cargo build 
+$ cargo build 
 ```
 ## Launching tool
 
@@ -84,25 +84,25 @@ Options:
 So you can launch tool with like those command examples to generate QrCode:
 
 ```shell
-./qrcode generate -a rot13 -f /tmp/message.txt -o /tmp/qrcode.png
+$ ./qrcode generate -a rot13 -f /tmp/message.txt -o /tmp/qrcode.png
 ```
 
 ```shell
-./qrcode generate -a rot13 -m "Some message!" -o /tmp/qrcode.png
+$ ./qrcode generate -a rot13 -m "Some message!" -o /tmp/qrcode.png
 ```
 
 ```shell
-./qrcode generate -a porta -k "KEY" -f /tmp/message.txt -o /tmp/qrcode.png
+$ ./qrcode generate -a porta -k "KEY" -f /tmp/message.txt -o /tmp/qrcode.png
 ```
 
 And those commands to extract message from QrCode:
 
 ```shell
-./qrcode extract -a rot13 -f /tmp/qrcode.png -o /tmp/message.txt
+$ ./qrcode extract -a rot13 -f /tmp/qrcode.png -o /tmp/message.txt
 ```
 
 ```shell
-./qrcode extract -a porta -k "KEY" -f /tmp/qrcode.png -o /tmp/message.txt
+$ ./qrcode extract -a porta -k "KEY" -f /tmp/qrcode.png -o /tmp/message.txt
 ```
 
 #### Attention
@@ -113,4 +113,3 @@ There are several algorithms which require `-k, --key <VALUE>` key option such a
  - `scytale`    - key type: `Number`;
  - `vigenere`   - key type: `String`;
  - `porta`      - key type: `String`.
- 
