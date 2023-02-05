@@ -1,7 +1,5 @@
 # QrCoder
 
-Forker from `nkr13/qrcode-encrypt` repository!
-
 ![GitHub version](https://img.shields.io/badge/version-v0.1.2-green?style=plastic&labelColor=dark)
 [![Building Project](https://github.com/breadrock1/QrCoder/actions/workflows/build-project-action.yml/badge.svg?branch=master)](https://github.com/breadrock1/QrCoder/actions/workflows/build-project-action.yml)
 
